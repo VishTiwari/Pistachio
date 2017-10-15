@@ -1,0 +1,30 @@
+<identifier>:
+First character is a letter, any proceeding character are letters or numbers
+
+<type>:
+A primitive type: string, int, boolean, etc.
+
+<value>:
+Either an identifier (for a variable) or a literal (1,"Hello", true)
+
+Class Declaration
+'class <identifier>'
+
+Method Declaration
+method <identifier = name> requires (<identifier = type><identifier = name>...)returns <identifier = type>'
+
+Variable Declaration:
+'var <type> < identifier = name> [= <values>]'
+
+Method invocation:
+'<identifier = name>'
+
+Print Statement;
+'print <value>'
+
+Return Statement:
+'return <value>'
+
+//parser analyse (a string or text) into logical syntactic components.
+// A tokenizer takes a string and splits it up into different pieces. 
+So, we can handle the individual pieces instead of having to handle the entire string
