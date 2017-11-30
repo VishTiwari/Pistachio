@@ -43,7 +43,7 @@ public class Method extends Block{
 			addVariable(new Variable(this, p.getType(), p.getName(), v.getValue()));
 		}
 		
-		for(Block b : getSubBlocks){
+		for(Block b : getSubBlocks()){
 			b.run();
 			if(returnValue != null){
 				break;
